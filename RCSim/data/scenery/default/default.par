@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scenery>
+  <definition>
+    <definition>terrain.def</definition>
+    <heightmap>scenery_h.png</heightmap>
+    <splathigh>data/scenery/default/scenery_s.dds</splathigh>
+    <splatlow>data/scenery/default/splat_low.png</splatlow>
+    <normalmap>data/scenery/default/scenery_l.png</normalmap>
+    <texture1>data/scenery/default/grass1.jpg</texture1>
+    <texture2>data/scenery/default/grass2.jpg</texture2>
+    <texture3>data/scenery/default/dirt1.jpg</texture3>
+    <texture4>data/scenery/default/road1.jpg</texture4>
+    <minimumheight>-1</minimumheight>
+    <maximumheight>50</maximumheight>
+    <defaultstartposition>0,0.05,0</defaultstartposition>
+    <waterstartposition>37,0.05,127</waterstartposition>
+  </definition>
+</scenery>

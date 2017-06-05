@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BF988CF-D9FF-4372-8E9C-B31D577D94D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bonsai</RootNamespace>
+    <AssemblyName>Bonsai</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Final Release|AnyCPU' ">
+    <OutputPath>bin\Final Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Controls\Button.cs" />
+    <Compile Include="Core\Controls\Checkbox.cs" />
+    <Compile Include="Core\Controls\ComboBox.cs" />
+    <Compile Include="Core\Controls\Control.cs" />
+    <Compile Include="Core\Controls\Dialog.cs" />
+    <Compile Include="Core\Controls\DialogResourceManager.cs" />
+    <Compile Include="Core\Controls\EditBox.cs" />
+    <Compile Include="Core\Controls\Element.cs" />
+    <Compile Include="Core\Controls\Hud.cs" />
+    <Compile Include="Core\Controls\ListBox.cs" />
+    <Compile Include="Core\Controls\Picture.cs" />
+    <Compile Include="Core\Controls\RadioButton.cs" />
+    <Compile Include="Core\Controls\ScrollBar.cs" />
+    <Compile Include="Core\Controls\Slider.cs" />
+    <Compile Include="Core\Controls\StaticText.cs" />
+    <Compile Include="Core\Controls\TextHelper.cs" />
+    <Compile Include="Core\DeviceSettings.cs" />
+    <Compile Include="Core\Dialogs\DailogBase.cs" />
+    <Compile Include="Core\Dialogs\SettingsDialog.cs" />
+    <Compile Include="Core\Dialogs\SwitchRefDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\EventArgs\Delegates.cs" />
+    <Compile Include="Core\EventArgs\DeviceEventArgs.cs" />
+    <Compile Include="Core\Exceptions.cs" />
+    <Compile Include="Core\Framework.cs" />
+    <Compile Include="Core\FrameworkData.cs" />
+    <Compile Include="Core\FrameworkTimer.cs" />
+    <Compile Include="Core\GraphicsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\Interfaces\IDeviceCreation.cs" />
+    <Compile Include="Core\Interfaces\IFrameworkCallback.cs" />
+    <Compile Include="Core\Enum.cs" />
+    <Compile Include="Core\Interfaces\ITransparentObject.cs" />
+    <Compile Include="Core\NativeMethods.cs" />
+    <Compile Include="Core\Quaternion.cs" />
+    <Compile Include="Core\ResourceCache.cs" />
+    <Compile Include="Core\Utility.cs" />
+    <Compile Include="Input\InputManager.cs" />
+    <Compile Include="Objects\Cameras\CameraBase.cs" />
+    <Compile Include="Objects\Cameras\CockpitCamera.cs" />
+    <Compile Include="Objects\Cameras\FirstPersonCamera.cs" />
+    <Compile Include="Objects\Cameras\FollowCamera.cs" />
+    <Compile Include="Objects\Cameras\ObserverCamera.cs" />
+    <Compile Include="Objects\Cameras\SpotCamera.cs" />
+    <Compile Include="Objects\Collision\CollisionManager.cs" />
+    <Compile Include="Objects\Collision\CollisionMesh.cs" />
+    <Compile Include="Objects\GameObject.cs" />
+    <Compile Include="Objects\Meshes\AnimatedXMesh.cs" />
+    <Compile Include="Objects\Meshes\CubeMesh.cs" />
+    <Compile Include="Objects\Meshes\LineMesh.cs" />
+    <Compile Include="Objects\Meshes\PointMesh.cs" />
+    <Compile Include="Objects\Particles\IParticleModifier.cs" />
+    <Compile Include="Objects\Particles\Particle.cs" />
+    <Compile Include="Objects\Particles\ParticleScaleModifier.cs" />
+    <Compile Include="Objects\Particles\ParticleSystem.cs" />
+    <Compile Include="Objects\Terrain\Water.cs" />
+    <Compile Include="Objects\TransparentObjectDistanceComparer.cs" />
+    <Compile Include="Objects\Lights\DirectionalLight.cs" />
+    <Compile Include="Objects\Lights\LightBase.cs" />
+    <Compile Include="Objects\Meshes\TerrainMesh.cs" />
+    <Compile Include="Objects\Meshes\TransparentXMesh.cs" />
+    <Compile Include="Objects\Meshes\DomeMesh.cs" />
+    <Compile Include="Objects\Meshes\MeshBase.cs" />
+    <Compile Include="Objects\Meshes\SquareMesh.cs" />
+    <Compile Include="Objects\Meshes\XMesh.cs" />
+    <Compile Include="Objects\Shaders\ShaderBase.cs" />
+    <Compile Include="Objects\Terrain\Heightmap.cs" />
+    <Compile Include="Objects\Textures\TextureBase.cs" />
+    <Compile Include="Objects\Textures\TransparentTexture.cs" />
+    <Compile Include="Objects\TransparentObjectManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sound\Sound.cs" />
+    <Compile Include="Sound\Sound3D.cs" />
+    <Compile Include="Sound\SoundControllable.cs" />
+    <Compile Include="Sound\SoundManager.cs" />
+    <Compile Include="Utils\Settings.cs" />
+    <Compile Include="Utils\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\Tracer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poweredbybonsai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

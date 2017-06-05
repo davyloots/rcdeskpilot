@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scenery>
+  <definition>
+    <definition>terrain.def</definition>
+  	<type>photo</type>
+  	<back>hasselt_back.jpg</back>
+    <backdepthmap>hasselt_back_depth.png</backdepthmap>
+  	<bottom>hasselt_bottom.jpg</bottom>
+  	<front>hasselt_front.jpg</front>
+    <frontdepthmap>hasselt_front_depth.png</frontdepthmap>
+    <left>hasselt_left.jpg</left>
+    <leftdepthmap>hasselt_left_depth.png</leftdepthmap>
+  	<right>hasselt_right.jpg</right>
+    <rightdepthmap>hasselt_right_depth.png</rightdepthmap>
+    <top>hasselt_top.jpg</top>
+    <defaultstartposition>0,0.05,10</defaultstartposition>
+    <waterstartposition>0,0.05,10</waterstartposition>
+  </definition>
+</scenery>

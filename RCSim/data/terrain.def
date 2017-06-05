@@ -1,0 +1,610 @@
+<?xml version="1.0" standalone="yes"?>
+<Terrain>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-24.89025</X>
+      <Y>0</Y>
+      <Z>-39.71066</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-17.4583073</X>
+      <Y>0</Y>
+      <Z>-63.15802</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-17.7371368</X>
+      <Y>0</Y>
+      <Z>-74.1255646</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-4.8622117</X>
+      <Y>0</Y>
+      <Z>-86.82994</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>12.3745546</X>
+      <Y>0</Y>
+      <Z>-86.67359</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>110.707787</X>
+      <Y>0</Y>
+      <Z>-40.2209625</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-33.4746246</X>
+      <Y>4.154431</Y>
+      <Z>185.730087</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>352.108978</X>
+      <Y>7.158631</Y>
+      <Z>-45.81587</Z>
+    </Position>
+  </Trees>
+  <Trees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>347.46167</X>
+      <Y>7.158631</Y>
+      <Z>38.6763153</Z>
+    </Position>
+  </Trees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-33.5454559</X>
+      <Y>10.1025028</Y>
+      <Z>241.234</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-34.54484</X>
+      <Y>9.865549</Y>
+      <Z>266.6388</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-32.142437</X>
+      <Y>13.0103512</Y>
+      <Z>290.860931</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-35.4022751</X>
+      <Y>15.8116484</Y>
+      <Z>312.609955</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-54.9178162</X>
+      <Y>16.3493443</Y>
+      <Z>317.986267</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-77.9491959</X>
+      <Y>17.1264858</Y>
+      <Z>319.4027</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-102.153496</X>
+      <Y>16.097784</Y>
+      <Z>316.7241</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-130.401077</X>
+      <Y>16.4563637</Y>
+      <Z>317.397736</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-156.654587</X>
+      <Y>17.4110165</Y>
+      <Z>317.020447</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-160.1839</X>
+      <Y>12.6490374</Y>
+      <Z>284.892273</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>61.6339226</X>
+      <Y>0.4254345</Y>
+      <Z>-126.331444</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>86.3847656</X>
+      <Y>0.4254345</Y>
+      <Z>-126.689896</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>109.053482</X>
+      <Y>0.4254345</Y>
+      <Z>-127.099709</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>224.928131</X>
+      <Y>0.4254345</Y>
+      <Z>-153.191147</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>239.643829</X>
+      <Y>0.4254345</Y>
+      <Z>-195.021667</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-7.51671934</X>
+      <Y>18.5777874</Y>
+      <Z>320.4083</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-204.397354</X>
+      <Y>20.2832718</Y>
+      <Z>353.914154</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-238.9918</X>
+      <Y>22.44763</Y>
+      <Z>343.353363</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>347.6513</X>
+      <Y>3.03853321</Y>
+      <Z>-439.099365</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>358.133</X>
+      <Y>3.03853321</Y>
+      <Z>-431.4433</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>359.0717</X>
+      <Y>3.03853321</Y>
+      <Z>-445.2119</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>341.875763</X>
+      <Y>7.158631</Y>
+      <Z>196.034836</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>347.6117</X>
+      <Y>7.158631</Y>
+      <Z>179.980942</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>366.333466</X>
+      <Y>7.158631</Y>
+      <Z>191.7965</Z>
+    </Position>
+  </SimpleTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-22.3319645</X>
+      <Y>16.24688</Y>
+      <Z>320.4083</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>18.8403</X>
+      <Y>23.7579861</Y>
+      <Z>355.028839</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-165.5977</X>
+      <Y>16.4175816</Y>
+      <Z>304.1384</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-222.831284</X>
+      <Y>20.2832718</Y>
+      <Z>337.347</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-275.081</X>
+      <Y>4.29756832</Y>
+      <Z>187.669937</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>274.088928</X>
+      <Y>0.8006178</Y>
+      <Z>-377.460541</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>310.2125</X>
+      <Y>0.8006178</Y>
+      <Z>-368.517242</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleTallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>351.938263</X>
+      <Y>7.158631</Y>
+      <Z>192.9675</Z>
+    </Position>
+  </SimpleTallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>1.30957437</X>
+      <Y>18.5777874</Y>
+      <Z>323.23877</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-17.17135</X>
+      <Y>18.5777874</Y>
+      <Z>325.238342</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-8.621262</X>
+      <Y>18.5777874</Y>
+      <Z>340.115723</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>38.146843</X>
+      <Y>23.7579861</Y>
+      <Z>350.9467</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-170.002579</X>
+      <Y>20.2832718</Y>
+      <Z>328.391632</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-180.66626</X>
+      <Y>20.2832718</Y>
+      <Z>337.056183</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-194.267975</X>
+      <Y>20.2832718</Y>
+      <Z>339.9983</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-186.13179</X>
+      <Y>20.2832718</Y>
+      <Z>348.968536</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-265.2524</X>
+      <Y>4.29756832</Y>
+      <Z>198.996857</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>291.5378</X>
+      <Y>0.8006178</Y>
+      <Z>-391.8019</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>277.860931</X>
+      <Y>0.8006178</Y>
+      <Z>-395.317932</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>265.695679</X>
+      <Y>0.8006178</Y>
+      <Z>-402.0326</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>253.088287</X>
+      <Y>0.8006178</Y>
+      <Z>-404.9841</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>239.56543</X>
+      <Y>0.8006178</Y>
+      <Z>-410.1822</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>321.778229</X>
+      <Y>0.8006178</Y>
+      <Z>-379.7544</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>337.00235</X>
+      <Y>0.8006178</Y>
+      <Z>-373.693237</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <SimpleSmallTrees>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>355.294281</X>
+      <Y>3.03853321</Y>
+      <Z>-439.273621</Z>
+    </Position>
+  </SimpleSmallTrees>
+  <Objects>
+    <FileName>parkbench.x</FileName>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-12.2682676</X>
+      <Y>0</Y>
+      <Z>-23.1898861</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Orientation>
+  </Objects>
+  <Objects>
+    <FileName>ad1.x</FileName>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>18.38688</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Orientation>
+  </Objects>
+  <Objects>
+    <FileName>partytent.x</FileName>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>20.655241</X>
+      <Y>0</Y>
+      <Z>-32.732605</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Orientation>
+  </Objects>
+  <Windmills>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-74.44113</X>
+      <Y>26.2420444</Y>
+      <Z>394.631653</Z>
+    </Position>
+  </Windmills>
+  <Windmills>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-105.721046</X>
+      <Y>25.0289555</Y>
+      <Z>394.631653</Z>
+    </Position>
+  </Windmills>
+  <Windmills>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-135.670715</X>
+      <Y>22.1269684</Y>
+      <Z>394.631653</Z>
+    </Position>
+  </Windmills>
+  <Flags>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-5.0</X>
+      <Y>0</Y>
+      <Z>20</Z>
+    </Position>
+  </Flags>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-81</X>
+      <Y>2.56</Y>
+      <Z>112</Z>
+    </Position>
+    <Strength>1.5</Strength>
+    <Size>30</Size>
+  </Thermals>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>42.5</X>
+      <Y>9.79</Y>
+      <Z>272</Z>
+    </Position>
+    <Strength>1.5</Strength>
+    <Size>30</Size>
+  </Thermals>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>8.18</X>
+      <Y>0</Y>
+      <Z>-71</Z>
+    </Position>
+    <Strength>1</Strength>
+    <Size>20</Size>
+  </Thermals>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-222</X>
+      <Y>0</Y>
+      <Z>-67</Z>
+    </Position>
+    <Strength>1.5</Strength>
+    <Size>30</Size>
+  </Thermals>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-53.4286842</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>4.712389</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>0</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-98.4864044</X>
+      <Y>0</Y>
+      <Z>28.8561783</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>1</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-60.1588936</X>
+      <Y>2.25182486</Y>
+      <Z>98.29014</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>1.83259571</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>2</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-12.7829475</X>
+      <Y>0</Y>
+      <Z>37.99194</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>2.87979341</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>3</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>40.1568336</X>
+      <Y>0</Y>
+      <Z>-31.3943558</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>1.57079637</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>4</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>141.907516</X>
+      <Y>0</Y>
+      <Z>-22.7694283</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>5</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+  <Gates>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>119.240952</X>
+      <Y>0</Y>
+      <Z>-0.0764489</Z>
+    </Position>
+    <Orientation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0</X>
+      <Y>4.712389</Y>
+      <Z>0</Z>
+    </Orientation>
+    <SequenceNr>6</SequenceNr>
+    <Type>1</Type>
+  </Gates>
+</Terrain>

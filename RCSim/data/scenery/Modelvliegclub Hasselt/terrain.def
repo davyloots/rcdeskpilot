@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<Terrain>  
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-81</X>
+      <Y>2.56</Y>
+      <Z>112</Z>
+    </Position>
+    <Strength>1.5</Strength>
+    <Size>45</Size>
+  </Thermals>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>42.5</X>
+      <Y>9.79</Y>
+      <Z>272</Z>
+    </Position>
+    <Strength>1.5</Strength>
+    <Size>45</Size>
+  </Thermals>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>8.18</X>
+      <Y>0</Y>
+      <Z>-71</Z>
+    </Position>
+    <Strength>1</Strength>
+    <Size>25</Size>
+  </Thermals>
+  <Thermals>
+    <Position xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-222</X>
+      <Y>0</Y>
+      <Z>-67</Z>
+    </Position>
+    <Strength>1.5</Strength>
+    <Size>45</Size>
+  </Thermals>  
+  <Skies>
+    <Name>Sunny afternoon</Name>
+    <Texture />
+    <SunPosition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>-114</X>
+      <Y>685</Y>
+      <Z>-547</Z>
+    </SunPosition>
+    <AmbientLight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0.5803922</X>
+      <Y>0.5803922</Y>
+      <Z>0.5803922</Z>
+    </AmbientLight>
+    <SunLight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <X>0.5803922</X>
+      <Y>0.5803922</Y>
+      <Z>0.5803922</Z>
+    </SunLight>
+    <TerrainAmbient>0.1</TerrainAmbient>
+    <TerrainSun>0.7</TerrainSun>
+  </Skies>
+</Terrain>

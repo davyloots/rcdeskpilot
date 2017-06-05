@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9713B3A-E3BC-48EC-A970-3E42858B73B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RCSim.AircraftEditor</RootNamespace>
+    <AssemblyName>RCSim.AircraftEditor</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>icon_blueprint_42.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\RCSim\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\RCSim\bin\Final Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\RCSim\AirplaneModel.cs">
+      <Link>AirplaneModel.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Birds.cs">
+      <Link>Birds.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\ControlSurface.cs">
+      <Link>ControlSurface.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\DataClasses\AircraftParameters.cs">
+      <Link>DataClasses\AircraftParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\DataClasses\AirplaneState.cs">
+      <Link>DataClasses\AirplaneState.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Effects\Reflection.cs">
+      <Link>Effects\Reflection.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Effects\WaterRipple.cs">
+      <Link>WaterRipple.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Effects\WaterRipples.cs">
+      <Link>WaterRipples.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\FlightModelWind.cs">
+      <Link>FlightModelWind.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\FlightModelWind2.cs">
+      <Link>FlightModelWind2.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Interfaces\IAirplaneControl.cs">
+      <Link>Interfaces\IAirplaneControl.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Interfaces\IFlightModel.cs">
+      <Link>Interfaces\IFlightModel.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\RecordedFlight.cs">
+      <Link>RecordedFlight.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Smoke.cs">
+      <Link>Smoke.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\ThermalVisual.cs">
+      <Link>ThermalVisual.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Water.cs">
+      <Link>Water.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Weather.cs">
+      <Link>Weather.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Wind.cs">
+      <Link>Wind.cs</Link>
+    </Compile>
+    <Compile Include="CollisionPoints.cs" />
+    <Compile Include="Cursor3d.cs" />
+    <Compile Include="Dialogs\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AircraftDimensionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AircraftDimensionsForm.Designer.cs">
+      <DependentUpon>AircraftDimensionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AircraftPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AircraftPanelControl.Designer.cs">
+      <DependentUpon>AircraftPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AircraftParametersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AircraftParametersForm.Designer.cs">
+      <DependentUpon>AircraftParametersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\CoefficientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\CoefficientsForm.Designer.cs">
+      <DependentUpon>CoefficientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\CollisionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\CollisionControl.Designer.cs">
+      <DependentUpon>CollisionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\CollisionParametersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\CollisionParametersForm.Designer.cs">
+      <DependentUpon>CollisionParametersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Graph2Control.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Graph2Control.Designer.cs">
+      <DependentUpon>Graph2Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\GraphControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\GraphControl.Designer.cs">
+      <DependentUpon>GraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InertiaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\InertiaForm.Designer.cs">
+      <DependentUpon>InertiaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\LicenseBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\LicenseBox.Designer.cs">
+      <DependentUpon>LicenseBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\MiscellaneousPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MiscellaneousPanelControl.Designer.cs">
+      <DependentUpon>MiscellaneousPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewAircraftForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewAircraftForm.Designer.cs">
+      <DependentUpon>NewAircraftForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewAircraftStep1Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewAircraftStep1Control.Designer.cs">
+      <DependentUpon>NewAircraftStep1Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewAircraftStep2Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewAircraftStep2Control.Designer.cs">
+      <DependentUpon>NewAircraftStep2Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewVariationStep2Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewVariationStep2Control.Designer.cs">
+      <DependentUpon>NewVariationStep2Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\PropulsionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\PropulsionForm.Designer.cs">
+      <DependentUpon>PropulsionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SliderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SliderControl.Designer.cs">
+      <DependentUpon>SliderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SoundControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SoundControl.Designer.cs">
+      <DependentUpon>SoundControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SurfacePropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SurfacePropertiesControl.Designer.cs">
+      <DependentUpon>SurfacePropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ToolboxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ToolboxForm.Designer.cs">
+      <DependentUpon>ToolboxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\VectorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\VectorControl.Designer.cs">
+      <DependentUpon>VectorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelControl.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dialogs\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AircraftDimensionsForm.resx">
+      <DependentUpon>AircraftDimensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AircraftPanelControl.resx">
+      <DependentUpon>AircraftPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AircraftParametersForm.resx">
+      <DependentUpon>AircraftParametersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CoefficientsForm.resx">
+      <DependentUpon>CoefficientsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CollisionControl.resx">
+      <DependentUpon>CollisionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\CollisionParametersForm.resx">
+      <DependentUpon>CollisionParametersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Graph2Control.resx">
+      <DependentUpon>Graph2Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\GraphControl.resx">
+      <DependentUpon>GraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InertiaForm.resx">
+      <DependentUpon>InertiaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\LicenseBox.resx">
+      <DependentUpon>LicenseBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MiscellaneousPanelControl.resx">
+      <DependentUpon>MiscellaneousPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewAircraftForm.resx">
+      <DependentUpon>NewAircraftForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewAircraftStep1Control.resx">
+      <DependentUpon>NewAircraftStep1Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewAircraftStep2Control.resx">
+      <DependentUpon>NewAircraftStep2Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewVariationStep2Control.resx">
+      <DependentUpon>NewVariationStep2Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\PropulsionForm.resx">
+      <DependentUpon>PropulsionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SliderControl.resx">
+      <DependentUpon>SliderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SoundControl.resx">
+      <DependentUpon>SoundControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SurfacePropertiesControl.resx">
+      <DependentUpon>SurfacePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ToolboxForm.resx">
+      <DependentUpon>ToolboxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\VectorControl.resx">
+      <DependentUpon>VectorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bonsai\Bonsai.csproj">
+      <Project>{7BF988CF-D9FF-4372-8E9C-B31D577D94D9}</Project>
+      <Name>Bonsai</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RCDeskPilot.API\RCDeskPilot.API.csproj">
+      <Project>{2CC8EC3A-672C-4705-A880-6F3A626D1A4E}</Project>
+      <Name>RCDeskPilot.API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector2_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector_updown_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inertia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_blueprint_42.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

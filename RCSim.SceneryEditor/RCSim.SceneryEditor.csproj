@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E408381-FAF4-40CF-9100-EA2BF06011AA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RCSim.SceneryEditor</RootNamespace>
+    <AssemblyName>RCSim.SceneryEditor</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Final Release|AnyCPU' ">
+    <OutputPath>..\RCSim\bin\Final Release\</OutputPath>
+    <DefineConstants>TRACE;EDITOR</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\RCSim\Birds.cs">
+      <Link>Birds.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\DataClasses\SceneryParameters.cs">
+      <Link>DataClasses\SceneryParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Flag.cs">
+      <Link>Flag.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Gate.cs">
+      <Link>Gate.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\LensFlare.cs">
+      <Link>LensFlare.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\PhotoScenery.cs">
+      <Link>PhotoScenery.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Scenery.cs">
+      <Link>Scenery.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\SceneryObject.cs">
+      <Link>SceneryObject.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\TerrainDefinition.cs">
+      <Link>TerrainDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\ThermalVisual.cs">
+      <Link>ThermalVisual.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Tractor.cs">
+      <Link>Tractor.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Tree.cs">
+      <Link>Tree.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Vegetation.cs">
+      <Link>Vegetation.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Water.cs">
+      <Link>Water.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Weather.cs">
+      <Link>Weather.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Wind.cs">
+      <Link>Wind.cs</Link>
+    </Compile>
+    <Compile Include="..\RCSim\Windmill.cs">
+      <Link>Windmill.cs</Link>
+    </Compile>
+    <Compile Include="Cursor3D.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBoxForm.resx">
+      <DependentUpon>ToolBoxForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SelectedObject.cs" />
+    <Compile Include="ToolBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolBoxForm.Designer.cs">
+      <DependentUpon>ToolBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindSock.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bonsai\Bonsai.csproj">
+      <Project>{7BF988CF-D9FF-4372-8E9C-B31D577D94D9}</Project>
+      <Name>Bonsai</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

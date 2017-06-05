@@ -1,0 +1,257 @@
+<?xml version="1.0" standalone="yes" ?>
+<aircraft>
+  <type>airplane</type>
+  <flightmodel>
+    <mass>3.5</mass>
+    <Ixx>1.64</Ixx>
+    <Iyy>0.95</Iyy>
+    <Izz>1.26</Izz>
+    <wingarea>0.677</wingarea>
+    <verticalarea>0.405</verticalarea>
+    <maximumthrust>50.0</maximumthrust>
+    <dihedralangle>0.02</dihedralangle>
+    <dihedralefficiency>2.0</dihedralefficiency>
+    <rolldamping>1.5</rolldamping>
+    <aileronefficiency>10.0</aileronefficiency>
+    <pitchdamping>1.8</pitchdamping>
+    <elevatorefficiency>9.0</elevatorefficiency>
+    <yawdamping>3.0</yawdamping>
+    <rudderefficiency>15.0</rudderefficiency>
+    <pitchstability>2.5</pitchstability>
+    <pitchtrim>0</pitchtrim>
+    <yawstability>0.5</yawstability>
+    <propwashailerons>50</propwashailerons>
+    <propwashelevator>50</propwashelevator>
+    <propwashrudder>90</propwashrudder>
+    <spinfactor>0.5</spinfactor>
+    <flightmodeltype>helicopter</flightmodeltype>
+    <fuselagedragx>0.01</fuselagedragx>
+    <fuselagedragy>0.02</fuselagedragy>
+    <fuselagedragz>0.10</fuselagedragz>
+    <grounddrag>1.0</grounddrag>
+    <liftcoefficientpoints>
+      <liftcoefficientpoint>
+        <angle>-PI</angle>
+        <coefficient>0.0</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>-1.0</angle>
+        <coefficient>0.0</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>-0.61</angle>
+        <coefficient>1.0</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>-0.41</angle>
+        <coefficient>-2.6</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>0.0</angle>
+        <coefficient>0.0</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>0.41</angle>
+        <coefficient>2.6</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>0.61</angle>
+        <coefficient>1.0</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>1.0</angle>
+        <coefficient>0.0</coefficient>
+      </liftcoefficientpoint>
+      <liftcoefficientpoint>
+        <angle>PI</angle>
+        <coefficient>0.0</coefficient>
+      </liftcoefficientpoint>
+    </liftcoefficientpoints>
+    <dragcoefficientpoints>
+      <dragcoefficientpoint>
+        <angle>-PI</angle>
+        <coefficient>0.06</coefficient>
+      </dragcoefficientpoint>
+      <dragcoefficientpoint>
+        <angle>-1.57</angle>
+        <coefficient>2.0</coefficient>
+      </dragcoefficientpoint>
+      <dragcoefficientpoint>
+        <angle>-0.17</angle>
+        <coefficient>0.08</coefficient>
+      </dragcoefficientpoint>
+      <dragcoefficientpoint>
+        <angle>0.0</angle>
+        <coefficient>0.047</coefficient>
+      </dragcoefficientpoint>
+      <dragcoefficientpoint>
+        <angle>0.17</angle>
+        <coefficient>0.08</coefficient>
+      </dragcoefficientpoint>
+      <dragcoefficientpoint>
+        <angle>1.57</angle>
+        <coefficient>2.0</coefficient>
+      </dragcoefficientpoint>
+      <dragcoefficientpoint>
+        <angle>PI</angle>
+        <coefficient>0.06</coefficient>
+      </dragcoefficientpoint>
+    </dragcoefficientpoints>
+    <sideliftcoefficientpoints>
+      <sideliftcoefficientpoint>
+        <angle>-PI</angle>
+        <coefficient>0.0</coefficient>
+      </sideliftcoefficientpoint>
+      <sideliftcoefficientpoint>
+        <angle>-1.0</angle>
+        <coefficient>-0.1</coefficient>
+      </sideliftcoefficientpoint>
+      <sideliftcoefficientpoint>
+        <angle>-0.5</angle>
+        <coefficient>-0.3</coefficient>
+      </sideliftcoefficientpoint>
+      <sideliftcoefficientpoint>
+        <angle>0.0</angle>
+        <coefficient>0.0</coefficient>
+      </sideliftcoefficientpoint>
+      <sideliftcoefficientpoint>
+        <angle>0.5</angle>
+        <coefficient>0.3</coefficient>
+      </sideliftcoefficientpoint>
+      <sideliftcoefficientpoint>
+        <angle>1.0</angle>
+        <coefficient>0.1</coefficient>
+      </sideliftcoefficientpoint>
+      <sideliftcoefficientpoint>
+        <angle>PI</angle>
+        <coefficient>0.0</coefficient>
+      </sideliftcoefficientpoint>
+    </sideliftcoefficientpoints>
+    <sidedragcoefficientpoints>
+      <sidedragcoefficientpoint>
+        <angle>-PI</angle>
+        <coefficient>0.02</coefficient>
+      </sidedragcoefficientpoint>
+      <sidedragcoefficientpoint>
+        <angle>-1.57</angle>
+        <coefficient>1.0</coefficient>
+      </sidedragcoefficientpoint>
+      <sidedragcoefficientpoint>
+        <angle>0.0</angle>
+        <coefficient>0.02</coefficient>
+      </sidedragcoefficientpoint>
+      <sidedragcoefficientpoint>
+        <angle>1.57</angle>
+        <coefficient>1.0</coefficient>
+      </sidedragcoefficientpoint>
+      <sidedragcoefficientpoint>
+        <angle>PI</angle>
+        <coefficient>0.02</coefficient>
+      </sidedragcoefficientpoint>
+    </sidedragcoefficientpoints>
+  </flightmodel>
+  <model>
+    <scale>0.15</scale>
+    <enginesound>engine.wav</enginesound>
+    <rotorsound>rotor.wav</rotorsound>
+    <engineminfrequency>44100</engineminfrequency>
+    <enginemaxfrequency>44100</enginemaxfrequency>
+    <throttledelay>3.0</throttledelay>
+    <restitution>0.1</restitution>
+    <crashresistance>3.0</crashresistance>
+    <channels>4</channels>
+    <handlaunched>false</handlaunched>
+    <fixedmesh>tiger_fixed.x</fixedmesh>
+    <description>
+      This is a dedicated attack helicopter built by a joint effort of Germany, France and Spain.
+    </description>
+    <icon>icon.png</icon>
+    <gearpoints>
+      <gearpoint>-3.333729, 0, 1.871223</gearpoint>
+      <gearpoint>0.7749537, -0.6156256, 1.853706</gearpoint>
+      <gearpoint>0.7749537, +0.6156256, 1.853706</gearpoint>
+      <gearpoint>2.448179, 0, 1.566887</gearpoint>
+      <gearpoint>2.745866, 0, 1.17796</gearpoint>
+      <gearpoint>0.1400304, -1.192514, 1.214064</gearpoint>
+      <gearpoint>0.1400304, +1.192514, 1.214064</gearpoint>
+      <gearpoint>-4.908396, 0.2427485, 0.5617657</gearpoint>
+      <gearpoint>0, 0, -0,2781015</gearpoint>
+    </gearpoints>
+    <controlsurfaces>
+      <controlsurface>
+        <filename>tiger_mast.x</filename>
+        <position>0.0, 0.0, -0.5148</position>
+        <rotationaxis>0, 1.0, 0</rotationaxis>
+        <minangle>-1.7</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>1.7</maxangle>
+        <channel>Rudder</channel>
+        <reversed>false</reversed>
+      </controlsurface>
+      <controlsurface>
+        <filename>tiger_canonbase.x</filename>
+        <position>0.0, 0.0, -2.4074</position>
+        <rotationaxis>0, 1.0, 0</rotationaxis>
+        <minangle>-1.7</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>1.7</maxangle>
+        <channel>Rudder</channel>
+        <reversed>false</reversed>
+      </controlsurface>
+      <controlsurface>
+        <filename>tiger_canon.x</filename>
+        <position>0.0, -1.4904, -2.4074</position>
+        <rotationaxis>0, 1.0, 0</rotationaxis>
+        <minangle>-1.7</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>1.7</maxangle>
+        <channel>Rudder</channel>
+        <reversed>false</reversed>
+      </controlsurface>
+      <controlsurface>
+        <filename>tiger_rotor.x</filename>
+        <position>0.0, 0.1359, 0</position>
+        <rotationaxis>0, 1.0, 0</rotationaxis>
+        <minangle>0</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>0</maxangle>
+        <channel>Throttle</channel>
+        <reversed>false</reversed>
+        <type>RotorLowRPM</type>
+      </controlsurface>
+      <controlsurface>
+        <filename>tiger_tailrotordisk.x</filename>
+        <position>0.0, -0.2581, 4.2799</position>
+        <rotationaxis>1.0, 0, 0</rotationaxis>
+        <minangle>0</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>00</maxangle>
+        <channel>Throttle</channel>
+        <reversed>false</reversed>
+        <type>TailRotorHighRPM</type>
+      </controlsurface>
+      <controlsurface>
+        <filename>tiger_tailrotor.x</filename>
+        <position>0.0, -0.2581, 4.2799</position>
+        <rotationaxis>1.0, 0, 0</rotationaxis>
+        <minangle>0</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>00</maxangle>
+        <channel>Throttle</channel>
+        <reversed>false</reversed>
+        <type>TailRotorLowRPM</type>
+      </controlsurface>
+      <controlsurface>
+        <filename>tiger_rotordisk.x</filename>
+        <position>0.0, 0.1355, 0</position>
+        <rotationaxis>0, 1.0, 0</rotationaxis>
+        <minangle>0.1</minangle>
+        <zeroangle>0</zeroangle>
+        <maxangle>0.1</maxangle>
+        <channel>Throttle</channel>
+        <reversed>false</reversed>
+        <type>RotorHighRPM</type>
+      </controlsurface>
+    </controlsurfaces>
+  </model>
+</aircraft>
