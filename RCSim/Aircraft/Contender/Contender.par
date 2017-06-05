@@ -302,7 +302,7 @@
 <hasfloats>false</hasfloats>
 <allowstowing>false</allowstowing>
 <fixedmesh>contender_fixed.x</fixedmesh>
-<description>My dad's favourite aircraft from the 80's ;)</description>
+<description>My dad's favourite nitro plane from the 80's ;)</description>
 <icon>icon.png</icon>
 <gearpoints>
 <gearpoint>-0.135294109582901,-1.27058827877045,1.11764705181122</gearpoint>

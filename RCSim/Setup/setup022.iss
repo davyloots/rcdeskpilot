@@ -58,7 +58,7 @@ ArchitecturesInstallIn64BitMode=x64 ia64
 Name: en; MessagesFile: compiler:Default.isl
 
 [Tasks]
-Name: desktopicon; Description: {cm:CreateDesktopIcon}; GroupDescription: {cm:AdditionalIcons}; Flags: unchecked
+Name: desktopicon; Description: {cm:CreateDesktopIcon}; GroupDescription: {cm:AdditionalIcons}
 
 [Files]
 Source: ..\bin\Final Release\RCDeskPilot.exe; DestDir: {app}; Flags: ignoreversion overwritereadonly uninsremovereadonly
