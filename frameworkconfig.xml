@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<FrameWorkSettings>
+  <Application.KeyValues>
+    <Key>DynamicScenery</Key>
+    <Value>1</Value>
+  </Application.KeyValues>
+  <Application.KeyValues>
+    <Key>EnableWindSound</Key>
+    <Value>true</Value>
+  </Application.KeyValues>
+</FrameWorkSettings>
